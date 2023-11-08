@@ -1,4 +1,4 @@
-**Digital Breakthrough 2022: Ulyanovsk - Car Plate Detection** is a dataset for an object detection task. The dataset consists of 482 images with 482 labeled objects belonging to 1 single class (*plate*). Dataset from Digital breakthrough: season AI (Ulyanovsk region) competition.
+The dataset for **Digital Breakthrough 2022: Ulyanovsk - Car Plate Detection** is a collection of 482 meticulously labeled images with a specific emphasis on detecting a car's *plate*. Embedded within the Ulyanovsk region AI competition, this dataset presents an intriguing challenge for participants: devising an algorithm for real-time assessment of distances between cars depicted in various photos. The primary goal is to integrate this algorithm into navigation systems, serving as a precautionary tool to alert individuals about unsafe distances, thereby advocating and bolstering road safety standards.
 
 ## About Digital Breakthrough: Season AI (Ulyanovsk Region)
 
