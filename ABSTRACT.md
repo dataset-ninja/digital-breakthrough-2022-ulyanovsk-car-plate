@@ -8,12 +8,12 @@ Maintaining a safe distance from the vehicle in front is one of the important cr
 
 The participants of the championship are faced with the task of developing an algorithm that allows determining the distance to the car in front in real-time, using a dataset of photos of cars from different distances. Subsequently, this algorithm can be used in navigation systems to warn of a dangerous approach and to monitor compliance with the distance.
 
-## Authors solution
+## Author's solution
 
 The author's solution is based on two datasets:
 
 - Digital Breakthrough 2022: Ulyanovsk - Car Plate Detection (current)
-- Digital Breakthrough 2022: Ulyanovsk - Car Object Detection [(available on DatasetNinja)](https://datasetninja.com/digital-breakthrough-2022-ulyanovsk-car-plate)
+- Digital Breakthrough 2022: Ulyanovsk - Car Object Detection [(available on DatasetNinja)](https://datasetninja.com/digital-breakthrough-2022-ulyanovsk-car-object)
 
 The baseline provided by the organizers of the championship was taken as the basis of the solution, which was improved, namely, in addition to detecting the car, the number, and the car-mating badge were also detected, which gave a greater increase in speed. Additional models were retrained on the competition data train (manual marking using an online service [makesense.ai](https://www.makesense.ai/) ) using the [YOLOv5](https://github.com/ultralytics/yolov5) (YOLOv5m6) model. CatBoostRegressor with improved parameters was used to predict the distance.
 
